@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="red">
+    <h3>Enter Your Form</h3>
+<!-- Form action API Endpoint  -->
+  <form action="https://api.web3forms.com/submit" method="POST" id="form">
+
+    <!-- Your Access key here. Don't worry this can be public -->
+    <input type="hidden" name="access_key" value="abbbb69b-3828-4af2-96aa-103f42f5f105">
+
+
+    <!-- Optional: Redirect URL after form submission -->
+    <input type="hidden" name="redirect" value="https://web3forms.com/success"><center>
+    <label for="n">Name</label><input type="text" id="n" placeholder="enter  your name" required name="Name">
+    <br><br>
+    <label for="n">Phone</label><input type="number" name="number" id="n">
+        <br><br>
+        Enter your feedback    <br>
+        <textarea name="text" placeholder="enter your message" rows="5" cols="10"></textarea>
+        <br><br><input type="submit">
+</form>
+</body>
+
+</html>
